@@ -1,0 +1,37 @@
+.sidebar {
+  width: 351px;
+  border-left: 1px solid #f0f4fb;
+  padding: 21px 24px 21px 16px;
+  &__free {
+    position: relative;
+    border: 1px solid #ff2d87;
+    border-radius: 20px;
+    padding: 21px 20px 20px 97px;
+    & > svg {
+      position: absolute;
+      top: 50%;
+      left: -11px;
+      transform: translateY(-50%);
+    }
+    &__content {
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: #2967ff;
+        margin-bottom: 10px;
+      }
+      button {
+        height: 40px;
+        width: 100%;
+        background: #2967ff;
+        border: none;
+        border-radius: 51px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+      }
+    }
+  }
+}
